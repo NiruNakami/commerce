@@ -16,7 +16,9 @@ function Navbar() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const toggleCart = () => setIsCartOpen(!isCartOpen);
 
-
+  const add = () => {
+    if ()
+  }
 
   return (
     <nav className="relative container-Navbar bg-white shadow-md">
