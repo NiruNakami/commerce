@@ -39,13 +39,13 @@ function Page() {
   const decrement = () => valueItem > 1 && setValueItem((prev) => prev - 1);
   
   function addCart(e:ProductData) {
-    if (date.length >= 1 ) {
-      setValueItem(2);
-    }
-    const buy = product.price * valueItem;
-    setdate(product[...product])
+  //   if (date.length >= 1 ) {
+  //     setValueItem(2);
+  //   }
+  //   const buy = product.price * valueItem;
+  //   setdate(product[...product])
     
-  }
+  // }
 
   return (
     <div>
